@@ -1,0 +1,32 @@
+Functions
+=========
+
+x = input("Please input your first number : ")
+y = input("Please input your second number : ")
+
+print("Menu:")
+print("1. Sum")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+print("5. Remainder of numbers")
+print("6. Compare numbers")
+print("7. Exit")
+choice= ''
+while choice== '':
+    choice=input()
+    print (choice)
+    if choice== '1':
+     Sum=("x+y")
+    elif choice== '2':
+     Subtract=("x-y")
+    elif choice== '3':
+     Multuply=("x*y")
+    elif choice== '4':
+     Divide=("x/y")
+    elif choice== '5':
+     Remainder=("x%y")
+    elif choice== '6':
+     Compare=("x,y")
+    elif choice== '7':
+     print(exit)
